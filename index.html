@@ -3,8 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <title>Rachel Roller</title>
     <style>
+
+        body {
+            overflow: hidden;
+        }
+        
+        .contact {
+            font-family: "Libre Franklin", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            display: flex;
+            position: fixed;
+            bottom: 15px;
+            left: 25px;
+            color:rgb(21 21 21);
+        }
+
+        .contact a {
+            text-underline-offset: 3px;
+            text-decoration-thickness: 0.05em;
+            color:rgb(21 21 21);
+        }
+
+        .contact a:visited {
+            color: rgb(21 21 21);
+        }
 
         .holding-container {
             width: 100vw;
@@ -21,9 +52,12 @@
     </style>
 </head>
 <body>
+    <!-- <h1>Rachel Roller</h1> -->
     <div class="holding-container">
-         <!-- <h1>Rachel Roller</h1> -->
         <img class="holding" src="img/you-are-welcome.jpg" alt="You are welcome" />
+    </div>
+    <div class="contact">
+        <p><a href="mailto:rachelroller@rahelzoller.com">Rachel Roller</a></p>
     </div>
 </body>
 </html>
